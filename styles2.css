@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.var{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 140px;
+  background-color: linen;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.var h1{
+  color:blue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.var img{
+  height: 100px;
+  width: 150px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.var img:hover {
+transform: rotate(3deg) scale(1.1);
+transition: 0.5s;
+width: 200px;
+height: 122px;
+}
+.page{
+  height: 1000px;
+  background-color: #669bbc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page .login{
+  background-color: #003B36;
+  width: 60%;
+  height: 900px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.page .login .title h1{
+  color: #669bbc;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px ;
+}
+.conts{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.conts .cont{
+  width: 390px;
+  border: #fff solid 1px ;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: #a2d2ff;
+  margin: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.conts .cont:hover{
+  border: #fff solid 2px ;
+  transition: 0.3s;
+}
+.conts .cont h2{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.conts .cont img{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+#border{
+  position: relative;
+}
+#border::after{
+  content: "";
+  position: absolute;
+  width: 700px;
+  height: 1px;
+  background-color:aliceblue;
+  bottom: -20px;
+}
